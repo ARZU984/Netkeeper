@@ -1,13 +1,5 @@
 sudo apt update
-sudo apt install python3
-sudo apt install tcpdump -y
-sudo apt install tshark -y
-sudo apt install apache utils
-sudo apt install wireshark
-sudo apt install hping3 -y
-sudo apt install nmap -y
-sudo apt install iptable
-sudo apt install ipset
+sudo apt install -y python3 python3-pip tcpdump tshark apache2-utils wireshark hping3 nmap iptable ipset 
 pip install psutil requests
 sudo python3 netdeflict.py
 sudo python3 -m http.server 80 //to start server at port number 80 
