@@ -55,12 +55,11 @@ https://github.com/user-attachments/assets/7f1beb7a-cab0-4565-b881-c19d3e40dd83
 
 Ideally in a screen or tmux session:
 ```bash
-apt install tcpdump tshark -y
-
 git clone :"https://github.com/ARZU984/Netkeeper.git"
 
-pip install psutil requests
+chmod +x commands.sh
 
+./commands.sh # this will automatic download all packages and run code 
 python3 NetKeeper.py
 ```
 ### On first use, you will need to run `NetKeeper.py` several times to complete setup.
