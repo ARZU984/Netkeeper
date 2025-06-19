@@ -60,7 +60,7 @@ git clone :"https://github.com/ARZU984/Netkeeper.git"
 chmod +x commands.sh
 
 ./commands.sh # this will automatic download all packages and run code 
-python3 NetKeeper.py
+
 ```
 ### On first use, you will need to run `NetKeeper.py` several times to complete setup.
 
