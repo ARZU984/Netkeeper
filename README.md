@@ -1,6 +1,6 @@
-# NetDeflect DDoS Mitigation v2.0
+# NetKeeper A DDoS Mitigation Tool [v 1.0]
 
-**NetDeflect** is an advanced DDoS mitigation and detection tool for Linux-based systems. It captures, analyzes, and classifies traffic in real-time, blocks malicious IPs based on attack signatures, provides live metrics, and sends Discord webhook alerts to keep you informed of any attacks.
+**Netkeeper** is an advanced DDoS mitigation and detection tool for Linux-based systems. It captures, analyzes, and classifies traffic in real-time, blocks malicious IPs based on attack signatures, provides live metrics, and sends Discord webhook alerts to keep you informed of any attacks.
 
 ---
 
@@ -57,8 +57,7 @@ Ideally in a screen or tmux session:
 ```bash
 apt install tcpdump tshark -y
 
-git clone https://github.com/0vm/NetDeflect
-cd NetDeflect
+git clone 
 
 pip install psutil requests
 
