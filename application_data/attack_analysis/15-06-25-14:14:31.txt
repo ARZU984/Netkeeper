@@ -1,0 +1,23 @@
+-----   Analysis Report: 15-06-25-14:14:31   -----
+        Pre-Mitigation:
+          • Packets Per Second: 400801
+          • Megabits Per Second: 128
+          • CPU Utilization: 9%
+        
+        Post-Mitigation:
+          • Packets Per Second: 650130
+          • Megabits Per Second: 208
+          • CPU Utilization: 16%
+        
+        Details:
+          • IPs Detected: 0
+          • IPs Found: 
+          • IPs Blocked: None 
+          • Attack Type: [Unclassified]
+          • Attack Category: Unknown
+          • Target Port: 80
+          • Target IP: 127.0.1.1
+        
+        Status:
+          • Mitigation Status: Ongoing Attack
+          • Block Strategy: Standard blocking

@@ -1,0 +1,23 @@
+-----   Analysis Report: 16-06-25-05:50:45   -----
+        Pre-Mitigation:
+          • Packets Per Second: 4204
+          • Megabits Per Second: 8
+          • CPU Utilization: 19%
+        
+        Post-Mitigation:
+          • Packets Per Second: 141
+          • Megabits Per Second: 0
+          • CPU Utilization: 12%
+        
+        Details:
+          • IPs Detected: 0
+          • IPs Found: 
+          • IPs Blocked: None 
+          • Attack Type: ICMP
+          • Attack Category: other
+          • Target Port: 58354
+          • Target IP: 127.0.1.1
+        
+        Status:
+          • Mitigation Status: Ongoing Attack
+          • Block Strategy: Standard blocking
