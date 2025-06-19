@@ -1,10 +1,10 @@
 sudo apt update
-sudo apt install python
+sudo apt install python3
 sudo apt install tcpdump -y
 sudo apt install tshark -y
 sudo apt install apache utils
 sudo apt install wireshark
-sudo apt install hping -y
+sudo apt install hping3 -y
 sudo apt install nmap -y
 sudo apt install iptable
 sudo apt install ipset
