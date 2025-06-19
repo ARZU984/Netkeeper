@@ -57,13 +57,13 @@ Ideally in a screen or tmux session:
 ```bash
 apt install tcpdump tshark -y
 
-git clone 
+git clone :"https://github.com/ARZU984/Netkeeper.git"
 
 pip install psutil requests
 
-python3 netdeflect.py
+python3 NetKeeper.py
 ```
-### On first use, you will need to run `netdeflect.py` several times to complete setup.
+### On first use, you will need to run `NetKeeper.py` several times to complete setup.
 
 ---
 
@@ -95,7 +95,7 @@ The `notification_template.json` defines the Discord embed layout and can be ful
 
 ### 🧠 Attack Detection Methodology
 
-NetDeflect v2.0 uses a multi-layered approach to detect attacks:
+NetKeeper v1.0 uses a multi-layered approach to detect attacks:
 
 1. **Signature-based Detection**: Matches traffic against known attack patterns.
 2. **Volume-based Detection**: Monitors traffic thresholds (PPS, MB/s).
@@ -141,7 +141,7 @@ Sends alerts to Discord with enhanced information:
 
 ### 🔗 External API Integration
 
-NetDeflect v2.0 can integrate with external security services:
+NetKeeper v1.0 can integrate with external security services:
 
 - Send blocked IPs to third-party firewalls or security services
 - Multiple sending modes: single, batch, or all IPs at once
